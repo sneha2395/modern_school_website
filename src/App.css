@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("Futura\ Light"),
+    url("./assets/font/Futura\ Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "Condensed";   /*Can be any text*/
+  src: local("FuturaLT-Condensed"),
+    url("./assets/font/FuturaLT-Condensed.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Heavy";   /*Can be any text*/
+  src: local("FuturaLT-Heavy"),
+    url("./assets/font/FuturaLT-Heavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ExtraBold";   /*Can be any text*/
+  src: local("FuturaLT-ExtraBold"),
+    url("./assets/font/FuturaLT-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("FuturaLT-Light"),
+    url("./assets/font/FuturaLT-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oblique";   /*Can be any text*/
+  src: local("FuturaLT-Oblique"),
+    url("./assets/font/FuturaLT-Oblique.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FuturaLT";   /*Can be any text*/
+  src: local("FuturaLT"),
+    url("./assets/font/FuturaLT.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
